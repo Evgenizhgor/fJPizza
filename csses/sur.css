@@ -1,13 +1,14 @@
 h1 {text-align: center;
     margin-bottom: 12px;
 text-shadow: 1px 1px 1px #000;}
-.no-pasaran {text-align: center;}    
+.no-pasaran {text-align: center; font-family: 'Viga';}    
 body {color: yellow; border: 2px white solid;
 background: linear-gradient(#c7000c 0%, #740505 60%, #3e0404 100%) ; 
 padding: 5px 10px; 
 
 }
 input[type="submit"] {
+    border: solid;
     width: 40%;
     height: 5em;
     display: block;
@@ -27,3 +28,5 @@ body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 .skill img{ width: 100px; height: 70px; }
 .skill {display: flex;
 flex-direction: row ;}
+input {color: rgb(221, 188, 22); border: solid;
+background-color: #270505;border-radius: 45px; border-color: #270505;}
