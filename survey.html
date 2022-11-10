@@ -8,17 +8,19 @@
   
   </head>
   <body>
+  
     <h1 id="title">fatJoe'sPizza Survey Form</h1> 
     <div class="divider"></div>
     <div  class="logo">
     <img src="images/pizzafistas.png">
   </div>
     <p class="no-pasaran" id="description">Human resources are crucial. You're all we need comrade!</p>
-    <fieldset>
+    <form>  
+      <fieldset>
     <label id="survey-form" > 
-        <input id="name" type="text" required  placeholder="Enter your name"> <label id="name-label">NAME</label> 
-        <input id="email" type="email"required placeholder="Enter your email">  <label id="email-label">EMAIL</label>
-        <input id="number" name="age" min="18" max="65" placeholder="Your age"> <label id="number-label">AGE</label>
+         <label id="name-label">NAME<input type="text" required  placeholder="Enter your name"></label> 
+          <label id="email-label">EMAIL<input id="email" type="email"required placeholder="Enter your email"></label>
+         <label id="number-label">AGE<input id="number" name="age" min="18" max="65" type="number" placeholder="Your age"></label>
       </fieldset>
       <fieldset>
       <p>your experience as a cook</p>
@@ -34,9 +36,9 @@
       <div id="user-testimony">
       <p>How did you hear about us?</p>
     
-      <p><input type="radio" name="user-testinomy" value="from-the-PRAVDA-newspaper" class="input-radio">from-the-PRAVDA-newspaper</p>
-     <p><input type="radio" name="user-testinomy" value="a-neighbor-advised" class="input-radio">a-neighbor-advised</p>
-     <p><input type="radio" name="user-testinomy" value="radio-propaganda"  class="input-radio">radio-propaganda</p>
+      <label for="from-the-PRAVDA-newspaper"><input type="radio" name="user-testinomy" value="from-the-PRAVDA-newspaper" class="inline" /> from the PRAVDA newspaper</label>
+     <label for="a-neighbor-advised"><input type="radio" name="user-testinomy" value="a-neighbor-advised" class="inline"> a neighbor advised</label>
+     <label for="radio-propaganda"><input type="radio" name="user-testinomy" value="radio-propaganda"  class="inline"> radio propaganda</label>
     </div>
     </fieldset>
     <fieldset>
@@ -47,7 +49,7 @@
     <label><input name="skill" value="Milano" type="checkbox">Milano</label></fieldset>
      <fieldset> <p>any useful information about yourself:</p>
 
-      <label for="comment">Add a note<textarea id="comment" name="comment" placeholder="I was born in Moscow in the 1970s..."></textarea> </label> 
+      <label for="comment">Add a note<textarea id="comment" name="comment" rows="3" cols="50" placeholder="I was born in Moscow in the 1970s..."></textarea> </label> 
     </fieldset>
       <input type="submit" id="Submit" value="Submit">
 </form>
