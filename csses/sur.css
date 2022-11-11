@@ -22,6 +22,7 @@ input[type="submit"] {
     background-color: #270505;
     color: rgb(221, 188, 22);
     border-color: rgb(221, 188, 22);
+    background:radial-gradient(rgb(65, 14, 14), rgb(169, 5, 5));
 }
 fieldset {border: none;
      border-bottom: #ec07ba;}
